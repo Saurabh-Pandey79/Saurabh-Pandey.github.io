@@ -56,7 +56,6 @@ function passon(){
     var Phone = document.getElementById('Phone').value;
     var Identity = document.getElementById('Identity').value;
     var DOB = document.getElementById('DOB').value;
-    var food = document.getElementById('food').value;
     clevertap.onUserLogin.push(
     {
     "Site": {
@@ -126,7 +125,7 @@ function passon(){
             <label for="other">Other</label>
         </div>
         <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                <button type="submit" class="btn btn-primary btn-block" onclick="passon()">Log in</button>
             </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block">Event</button>
