@@ -1,0 +1,9 @@
+{
+  "name": "alstonquadros.github.io",
+  "short_name": "AlstonQ",
+  "description": "Learn how to create and share something or other.",
+  "start_url": "/index.html",
+  "background_color": "#000000",
+  "theme_color": "#0f4a73",
+  "gcm_sender_id": "134424371761"
+}
