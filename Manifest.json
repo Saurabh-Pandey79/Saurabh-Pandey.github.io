@@ -1,9 +1,6 @@
 {
-  "name": "Saurabh-Pandey79.github.io",
+  "name": "Saurabh Pandey",
   "short_name": "Saurabh",
-  "description": "Learn how to create and share something or other.",
   "start_url": "/index.html",
-  "background_color": "#000000",
-  "theme_color": "#0f4a73",
   "gcm_sender_id": "1004669836823"
 }
