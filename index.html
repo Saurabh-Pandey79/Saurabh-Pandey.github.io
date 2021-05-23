@@ -92,6 +92,14 @@ function passon(){
             }
         });
     }
+    function eventfun(){
+        clevertap.event.push("new custom event", {
+    "Amount": 300,
+    "Payment mode": "Credit Card",
+    "Charged ID": 24052013,
+    
+});
+    }
 </script>
 
 
@@ -132,7 +140,7 @@ function passon(){
                 <button type="submit" class="btn btn-primary btn-block" onclick="passon()">Log in</button>
             </div>
         <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-block">Event</button>
+            <button type="submit" class="btn btn-primary btn-block" onclick="eventfun()">Event</button>
         </div>
         <div class="clearfix">
             <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
