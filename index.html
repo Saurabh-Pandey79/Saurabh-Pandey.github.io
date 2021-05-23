@@ -93,13 +93,14 @@ function passon(){
         });
     }
     function eventfun(){
-        clevertap.event.push("new custom event", {
-    "Amount": 300,
-    "Payment mode": "Credit Card",
-    "Charged ID": 24052013,
+        var event_name = document.getElementById('event_name').value;
+        var property = document.getElementById('property').value;
+        clevertap.event.push("event_name", {
+   "property1": property,
     
 });
     }
+   
 </script>
 
 
@@ -122,6 +123,12 @@ function passon(){
         </div>
         <div class="form-group">
             <input type="tel" class="form-control" placeholder="Phone Number" id="Phone">
+        </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="event_name" id="event_name">
+        </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="property" id="property">
         </div>
         <div class="form-group">
             <label for="DOB">Date of Birth</label>
