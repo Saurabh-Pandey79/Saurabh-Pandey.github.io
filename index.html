@@ -100,7 +100,7 @@ function passon(){
     
 });
     }
-    function notipermission(){
+    function myFunction1(){
         clevertap.notifications.push({
   "apnsWebPushId":"<apple web push id>", //only for safari browser
   "apnsWebPushServiceUrl":"<safari package service url>",//only for safari browser
@@ -110,12 +110,15 @@ function passon(){
   "rejectButtonText":'No thanks',
   "okButtonColor":'#F28046'});
     }
+    
+    
    
 </script>
 
 
 </head>
 <body>
+<body onload="myFunction1()">
 <div class="login-form">
     <form action=" " method="post">
         <h2 class="text-center">Log in</h2>
